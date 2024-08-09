@@ -33,7 +33,7 @@ This project should not be easy. You’ll probably have to Google frequently to 
 - Research button tags in HTML and how you can make a JavaScript function run when one is clicked.
 - Also check out prompts.
 - You should be able to enter 64 and have a brand new 64x64 grid pop up without changing the total amount of pixels used.
-  > 5.  Push your project to GitHub!
+  > 5. Push your project to GitHub!
 
 **Extra credit**
 
