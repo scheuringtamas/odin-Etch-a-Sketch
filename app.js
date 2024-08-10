@@ -10,7 +10,7 @@ function createGrid(size) {
     div.style.height = `${squareSize}px`;
 
     div.addEventListener("mouseover", () => {
-      div.style.backgroundColor = "black";
+      div.style.backgroundColor = changeColor();
     });
 
     container.appendChild(div);
@@ -27,6 +27,13 @@ function changeSize() {
   } while (isNaN(newSize) || newSize <= 0 || newSize > 100);
 
   createGrid(newSize);
+}
+
+function changeColor() {
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  return `rgb(${r},${g},${b})`;
 }
 
 createGrid(16);
